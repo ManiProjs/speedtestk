@@ -33,7 +33,7 @@ jobs:
 
     - name: Package with PyInstaller
       run: |
-        pyinstaller --onefile internet_speed_test.py
+        pyinstaller --onefile speedtestk.py
 
     - name: Upload packaged artifact
       uses: actions/upload-artifact@v3
